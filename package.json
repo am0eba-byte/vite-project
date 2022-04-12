@@ -1,0 +1,19 @@
+{
+  "homepage": "http://am0eba-byte.github.io/vite-project",
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "three": "^0.139.2"
+  }
+}
